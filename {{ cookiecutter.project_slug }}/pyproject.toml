@@ -3,6 +3,7 @@ name = "{{ cookiecutter.project_slug }}"
 description = ""
 readme = "README.md"
 requires-python = ">=3.8"
+version = "0.1.0"
 
 dependencies = [
   "numpy",
