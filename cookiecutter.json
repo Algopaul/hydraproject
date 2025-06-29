@@ -1,0 +1,6 @@
+{
+  "project_name": "Simple Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "author": "Algopaul",
+  "slurm_account": ""
+}

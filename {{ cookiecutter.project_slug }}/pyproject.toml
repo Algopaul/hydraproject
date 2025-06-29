@@ -1,0 +1,30 @@
+[project]
+name = "{{ cookiecutter.project_slug }}"
+description = ""
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+  "numpy",
+  "jax",
+  "h5py",
+  "matplotlib",
+  "hydra-core",
+  "hydra-submitit-launcher",
+  "humanize",
+  "pandas",
+  "seaborn",
+]
+
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = [
+  "pylint>=2.6.0",
+  "yapf",
+  "pytest",
+  "isort",
+]
+
+[tool.setuptools]
+packages = ["{{ cookiecutter.project_slug }}"]
