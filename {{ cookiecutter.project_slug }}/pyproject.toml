@@ -17,8 +17,6 @@ dependencies = [
   "seaborn",
 ]
 
-dynamic = ["version"]
-
 [project.optional-dependencies]
 dev = [
   "pylint>=2.6.0",
